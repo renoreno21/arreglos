@@ -1,3 +1,5 @@
+// este es un programa de ordenamiento metodo burbuja
+
 import java.io.*;
  
 public class burbuja
@@ -23,23 +25,8 @@ public class burbuja
         burbuja(arr);
     }
  
-    static void burbuja(int arreglo[])
-    {
-        for(int i = 0; i < arreglo.length - 1; i++)
-        {
-            for(int j = 0; j < arreglo.length - 1; j++)
-            {
-                if (arreglo[j] < arreglo[j + 1])
-                {
-                    int tmp = arreglo[j+1];
-                    arreglo[j+1] = arreglo[j];
-                    arreglo[j] = tmp;
-                }
-            }
-        }
-        for(int i = 0;i < arreglo.length; i++)
-        {
-            System.out.print(arreglo[i]+"\n");
-        }
-    }
+   
 }
+
+
+
